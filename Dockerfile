@@ -95,6 +95,7 @@ RUN git clone https://github.com/honeynet/droidbot.git && \
 #	pip install -r requirements.txt
 #ENV SAPIENZ_HOME /opt/sapienz/
 
+# TODO: droidmate
 
 # clean up
 RUN apt-get remove -y unzip wget && \
